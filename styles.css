@@ -1,0 +1,46 @@
+body, html {
+	height: 100%;
+}
+
+.bg {
+	background-image: url(img/gameStartup.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.centered {
+	display: flex;
+	align-items: center;
+	min-height: 30%;
+}
+
+h1 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 55px;
+	color: #e94b3c;
+}
+
+.btn-primary {
+	background-color: #383737;
+	border-color: #383737;
+	color: #fbfbfb;
+	width: 200px;
+	height: 50px;
+	margin-top: 350px;
+	margin-left: 65px;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+	background-color: #fbfbfb;
+	border-color: #383737;
+	border-width: 3px;
+	color: #383737;
+	font-weight: bold;
+}
