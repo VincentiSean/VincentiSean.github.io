@@ -1,43 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Video Game Startup</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:lighter,bold" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<title>G2H2 Pittsburgh</title>
 </head>
 <body>
-	<div class="bg">
-		<div class="centered">
-			<div class="align-middle col col-md-12">
-				<h1 class="text-center">The next big video game startup!</h1>
-			</div>
-		</div>
-			<div class="d-flex justify-content-center">
-				<!-- Begin MailChimp Signup Form -->
-				<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-				<style type="text/css">
-					#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
-					/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-					   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-				</style>
-				<div id="mc_embed_signup">
-				<form action="https://coolwebsite.us18.list-manage.com/subscribe/post?u=8e1a9d718994cec0822c3318c&amp;id=0b78c2fa36" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				    <div id="mc_embed_signup_scroll">
-				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-				    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8e1a9d718994cec0822c3318c_0b78c2fa36" tabindex="-1" value=""></div>
-				    <div class="clear"><input class="btn btn-primary" type="submit" value="Find out more" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-				    </div>
-				</form>
-				</div>
-
-				<!--End mc_embed_signup-->
-				<!-- <button type="button" class="btn btn-primary">Find out more</button> -->
-			</div>
+	
+	<!-- Header -->
+	<div id="backgroundImage"></div>
+	<div id="logoWrapper">
+		<a href="https://www.facebook.com/G2H2-Pittsburgh-108448292184/">
+			<h1 id="logo">G2H2 Pittsburgh</h1>
+		</a>
 	</div>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- Navigation -->
+	<div class="navbar normalNav">
+		<ul>
+			<li>
+				<a class="normal" href="index.html">Home</a>
+			</li>
+			<li>
+				<a class="normal" href="gallery.html">Gallery</a>
+			</li>
+			<li>
+				<a class="normal" href="about.html">About</a>
+			</li>
+			<li>
+				<a class="normal" href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- Fixed Bottom Navigation for phones -->
+	<div class="navbar smallNav">
+		<ul>
+			<li>
+				<a class="normal" href="index.html">
+					<i class="fas fa-home"></i>
+				</a>
+			</li>
+			<li>
+				<a class="normal" href="gallery.html">
+					<i class="fas fa-image"></i>
+				</a>
+			</li>
+			<li>
+				<a class="normal" href="about.html">
+					<i class="fas fa-info-circle"></i>
+				</a>
+			</li>
+			<li>
+				<a class="normal" href="contact.html">
+					<i class="fas fa-envelope-open"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<!-- Subscription -->
+	<div class="subWrapper">
+		<h1 id="joinText">Join us the second Friday of every month!</h1>
+		<p id="subscribe">Subscribe to get monthly updates!</p>
+		<div class="form-wrapper">
+			<form>
+				<input id="email" type="text" name="email" placeholder="Email">
+				<button id="send" type="button" name="submit" value="Subscribe">
+					<i class="far fa-envelope"></i>
+				</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Event -->
+	<div class="event-wrapper">
+		<div class="event">
+			<div class="event-div">
+				<img class="event-pic" src="img/theAbbeyTwo.jpg">
+				<p class="date">
+					<span class="num">12</span>
+					<span class="day-month-fix">
+						<span class="day">Fri</span>
+						<br>Jan
+					</span>
+				</p>
+				<p class="event-location"><a href="https://www.theabbeyonbutler.com/">The Abbey</a></p>
+				<p class="date-sm">
+					Friday, January 12th
+				</p>
+				<p class="event-info">
+					<span class="time-specials">Time: 5:30 - 8pm<br>
+						Drink Specials: $1 off all wine, draft beer and well drinks.
+					</span>
+					<span class="info">The Abbey on Butler Street is a new establishment in Lawrenceville, housing a coffeehouse, pub, and bistro all under one roof. Serving European pub cuisine, craft cocktails, twenty rotating draft beers, craft coffee, and coffee/tea based cocktails.</span>
+				</p>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

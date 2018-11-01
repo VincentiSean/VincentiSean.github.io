@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:lighter,bold" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<title>G2H2 Pittsburgh</title>
+	
+	<script type="text/javascript">
+		// Get the modal
+		var modal = document.getElementById("myModal");
+
+		function onClick(element) {
+		  	document.getElementById("img01").src = element.src;
+		  	document.getElementById("myModal").style.display = "block";
+		}
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+			document.getElementById("myModal").style.display = "none";
+		}
+	</script>
+</head>
+<body>
+	<!-- Header -->
+	<div id="logoWrapper">
+		<a href="https://www.facebook.com/G2H2-Pittsburgh-108448292184/">
+			<h1 id="logo2">G2H2 Pittsburgh</h1>
+		</a>
+	</div>
+
+	<!-- Navigation -->
+	<div class="navbar normalNav">
+		<ul>
+			<li>
+				<a class="normal" href="index.html">Home</a>
+			</li>
+			<li>
+				<a class="normal" href="gallery.html">Gallery</a>
+			</li>
+			<li>
+				<a class="normal" href="about.html">About</a>
+			</li>
+			<li>
+				<a class="normal" href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- Fixed Bottom Navigation for phones -->
+	<div class="navbar smallNav">
+		<ul>
+			<li>
+				<a class="normal" href="index.html">
+					<i class="fas fa-home"></i>
+				</a>
+			</li>
+			<li>
+				<a class="normal" href="gallery.html">
+					<i class="fas fa-image"></i>
+				</a>
+			</li>
+			<li>
+				<a class="normal" href="about.html">
+					<i class="fas fa-info-circle"></i>
+				</a>
+			</li>
+			<li>
+				<a class="normal" href="contact.html">
+					<i class="fas fa-envelope-open"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- When an image is clicked, modal pops up -->
+	<div id="myModal" class="modal" onclick="this.style.display='none'">
+		<span class="close">&times;</span>
+		<img class="modal-content" id="img01">
+	</div>
+
+	<!-- Gallery -->
+	<div class="row">
+		<div class="column">
+			<ul>
+				<li class="imageLi">
+					<img class="galleryImg" src="img/imageOne.jpg" onclick="onClick(this)">
+				</li>
+				<li class="imageLi">
+					<img class="galleryImg" src="img/imageTwo.jpg" onclick="onClick(this)">
+				</li>
+				<li class="imageLi">
+					<img class="galleryImg" src="img/imageThree.jpg" onclick="onClick(this)">
+				</li>
+				<li class="imageLi">
+					<img class="galleryImg" src="img/imageFour.jpg" onclick="onClick(this)">
+				</li>
+				<li class="imageLi">
+					<img class="galleryImg" src="img/imageFive.jpg" onclick="onClick(this)">
+				</li>
+				<li class="imageLi">
+					<img class="galleryImg" src="img/imageSix.jpg" onclick="onClick(this)">
+				</li>
+				<li class="imageLi">
+					<img class="galleryImg" src="img/imageSeven.jpg" onclick="onClick(this)">
+				</li>
+			</ul>
+		</div>
+		<div class="column">
+			<ul>
+				<li>
+					<img class="galleryImg" src="img/imageEight.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageNine.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageTen.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageEleven.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageTwelve.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageThirteen.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageFourteen.jpg" onclick="onClick(this)">
+				</li>
+			</ul>
+		</div>
+		<div class="column">
+			<ul>
+				<li>
+					<img class="galleryImg" src="img/imageFifteen.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageSixteen.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageSeventeen.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageEighteen.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageNineteen.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageTwenty.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageTwentyone.jpg" onclick="onClick(this)">
+				</li>
+			</ul>
+		</div>
+		<div class="column">
+			<ul>
+				<li>
+					<img class="galleryImg" src="img/imageTwentytwo.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageTwentythree.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageTwentyfour.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageTwentyfive.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageTwentysix.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageTwentyseven.jpg" onclick="onClick(this)">
+				</li>
+				<li>
+					<img class="galleryImg" src="img/imageTwentyeight.jpg" onclick="onClick(this)">
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+</html>
