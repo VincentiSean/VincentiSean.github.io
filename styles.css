@@ -81,6 +81,7 @@ a {
 
 .navbar ul li a {
 	font-size: 17px;
+	font-weight: bold;
 	letter-spacing: 1px;
 	color: #FF4040;;
 	transition:color 0.15s ease;
@@ -91,11 +92,11 @@ a {
     cursor: pointer;
 }
 
-.navbar a:hover {
+.hoverEffect a:hover {
     color:#269999;
 }
 
-.navbar a::after {
+.hoverEffect a::after {
 	position: absolute;
     content: '';
     top:0;
@@ -106,7 +107,7 @@ a {
     transition: width 0.25s ease;
     border-bottom: 1px solid #269999;
 }
-.navbar a:hover::after {
+.hoverEffect a:hover::after {
     width: 100%;
     border-bottom: 1px solid #269999;
 }
