@@ -430,6 +430,11 @@ form {
 	box-shadow: 0px 1px 1px 1px rgba(170, 170, 170, 0.6);
 }
 
+#facebookLink {
+	color: #FF4040;
+	font-weight: bold;
+}
+
 /* Modal CSS */
 .modal {
     display: none; /* Hidden by default */
