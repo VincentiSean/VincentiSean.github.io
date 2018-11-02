@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-	overflow-x: hidden;
 }
 
 html, body {
@@ -28,7 +27,7 @@ a {
 	      rgba(0, 0, 0, 0.55), 
 	      rgba(0, 0, 0, 0.55)
 	    ),
-	    url("img/skyline.jpg");
+	    url("img/lowresSkyline.jpg");
     
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -383,6 +382,7 @@ form {
 #submitInput {
 	color: white;
 	background-color: #FF4040;
+	-webkit-appearance: none;
 }
 
 #submitInput:hover {
